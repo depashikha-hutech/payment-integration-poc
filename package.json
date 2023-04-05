@@ -1,0 +1,32 @@
+{
+  "name": "payment-integration-poc",
+  "version": "1.0.0",
+  "description": "",
+  "main": "payment .js",
+  "scripts": {
+    "start": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/depashikha-hutech/payment-integration-poc.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/depashikha-hutech/payment-integration-poc/issues"
+  },
+  "homepage": "https://github.com/depashikha-hutech/payment-integration-poc#readme",
+  "dependencies": {
+    "axios": "^1.1.3",
+    "cors": "^2.8.5",
+    "crypto": "^1.0.1",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "js-sha512": "^0.8.0",
+    "node-fetch": "^2.6.7",
+    "nodemon": "^2.0.20",
+    "pg": "^8.8.0",
+    "sequelize": "^6.25.7"
+  }
+}
